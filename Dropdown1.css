@@ -1,0 +1,108 @@
+@font-face {
+    font-family: myFont;
+    src: url(wallpaperssss/hemi.ttf.otf);
+}
+nav{
+    display: flex;
+    background-color:black;
+    position: sticky;
+    top: 0%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: grey;
+    font-family: myFont;
+    
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+    font-family: myFont;
+    margin: 0%;
+    padding: 0%;  
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    color: white;
+}
+a:hover{
+    transition: 200ms;
+}
+#veg{
+    list-style-type: none;
+    padding: 0%;
+    position:absolute;  
+    display: none;
+}
+#food:hover #veg{
+    display: block;
+    background-color: black;
+    transition: 200ms
+}
+#nveg{
+    list-style-type: none;
+    padding: 0%;
+    position:absolute;  
+    display: none;
+}
+#jevan:hover #nveg{
+    display: block;
+    background-color: black;
+    transition: 200ms
+}
+#pey{
+    list-style-type: none;
+    padding: 0%;
+    position:absolute;  
+    display: none;
+}
+#pani:hover #pey{
+    display: block;
+    background-color: black;
+    transition: 200ms
+}
+footer{
+    display: flex;
+    align-items: last baseline;
+    background-color: black;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+}    
+h5{
+    color: grey;
+}
+#left{
+    display: flex;
+    width: 60%;
+}
+#right{
+    display: flex;
+    width: 40%;
+    border-left: 2px solid grey;
+}
+#book{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    padding: 0%;
+    /* background-color: grey; */
+}
+#face{
+    position: relative;
+}
+#face:hover #book{
+    display: block;
+    
+}
